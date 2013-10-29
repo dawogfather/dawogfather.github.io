@@ -2,7 +2,7 @@ title:            Romano's Ramblings
 description:      Programming related blog of Tom Romano
 disqus_shortname: 
 #Comment out url when working locally to resolve base urls correctly
-url:              http://dawogfather.github.io
+# url:              http://dawogfather.github.io
 
 # Owner/author information
 owner:
@@ -14,13 +14,16 @@ owner:
   twitter:        dawogfather
   facebook:       tom.romano1
   github:         dawogfather
-  stackexchange:  dawogfather
-  linkedin:       
-  instagram:      
+  # stackexchange:  http://stackexchange.com/users/364552/dawogfather
+  stackexchange:  http://stackoverflow.com/users/708998/dawogfather
+  linkedin:       tomromano
+  instagram:      dawogfather
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:   tom@theromanos.com.au
+  # google_plus:   tom@theromanos.com.au
+  #google_plus:   117650494069737255943
+  google_plus: https://plus.google.com/117650494069737255943
 
 # Background image to be tiled on all pages
 background: ps_neutral.png
