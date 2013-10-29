@@ -2,7 +2,7 @@ title:            Romano's Ramblings
 description:      Programming related blog of Tom Romano
 disqus_shortname: 
 #Comment out url when working locally to resolve base urls correctly
-# url:              http://dawogfather.github.io
+url:              http://dawogfather.github.io
 
 # Owner/author information
 owner:
