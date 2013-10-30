@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "Sample Link Post"
-description: "Example and code for using link posts."
-tags: [sample post, link post]
+title: "Changing Java JDK versions quickly and easily"
+description: "My coderwall pro tip for quickly switching JDKs on OSX"
+tags: [java, jdk, pro, tip, coderwall, bash, jvm, profile, osx, link post]
 comments: true
-link: http://mademistakes.com  
+link: https://coderwall.com/p/bajddw?i=1&p=1&q=author%3Adawogfather&t%5B%5D=dawogfather 
 share: true
 ---
 
-This theme supports **link posts**, made famous by John Gruber. To use, just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done.
+I recently shared this pro-tip on coderwall. It's a favourite of mine. 
+It basically allows you to quickly and easily switch between your JDK's on MacOSX. 
+Maybe you will find it useful also. 
