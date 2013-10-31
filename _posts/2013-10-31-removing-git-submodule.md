@@ -12,13 +12,17 @@ Git submodules are super handy and awesome. But quickly become a pain if you don
 This link by David Walsh covers how to remove a git submodule on his site, but I'll put it here to look it up quickly. 
 
 Delete the relevant section from the .gitmodules file.  The section would look similar to:
+{% highlight %}
     [submodule "vendor"]
     path = vendor
     url = git://github.com/some-user/some-repo.git
+{% endhighlight %}
 Stage the .gitmodules changes via command line using: ```git add .gitmodules```
 Delete the relevant section from .git/config, which will look like:
+{% highlight %}
     [submodule "vendor"]
     url = git://github.com/some-user/some-repo.git
+{% endhighlight %}    
 Run ```git rm --cached path/to/submodule``` .  Don't include a trailing slash -- that will lead to an error.
 Run ```rm -rf .git/modules/submodule_name```
 Commit the change:
