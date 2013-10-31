@@ -20,6 +20,7 @@ Delete the relevant section from the .gitmodules file.  The section would look s
 {% endhighlight %}
 
 Stage the .gitmodules changes via command line using: ```git add .gitmodules```
+
 Delete the relevant section from .git/config, which will look like:
 
 {% highlight bash%}
@@ -28,6 +29,10 @@ Delete the relevant section from .git/config, which will look like:
 {% endhighlight %}    
 
 Run ```git rm --cached path/to/submodule``` .  Don't include a trailing slash -- that will lead to an error.
+
 Run ```rm -rf .git/modules/submodule_name```
-Commit the change:
+
+Commit the changes
+
 Delete the now untracked submodule files ```rm -rf path/to/submodule```
+
