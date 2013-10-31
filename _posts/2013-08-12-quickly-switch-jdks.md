@@ -4,7 +4,7 @@ title: "Changing Java JDK versions quickly and easily"
 description: "My coderwall pro tip for quickly switching JDKs on OSX"
 tags: [java, jdk, pro, tip, coderwall, bash, jvm, profile, osx, link post]
 comments: true
-link: https://coderwall.com/p/bajddw?i=1&p=1&q=author%3Adawogfather&t%5B%5D=dawogfather 
+link: https://coderwall.com/p/bajddw
 share: true
 ---
 
