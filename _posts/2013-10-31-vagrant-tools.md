@@ -10,5 +10,8 @@ share: true
 
 You probably have noticed I've be talking a bit about vagrant lately. I've been using it a lot. 
 Here is another few links I've found interesting. 
+
 [Vagrant tips from Anton](https://coderwall.com/p/17i72q) has some general tips and trips for using vagrant
+
 [Rove.io](http://rove.io/) allows you to create vagrant configs quickly and easily. 
+
