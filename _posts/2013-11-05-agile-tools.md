@@ -7,6 +7,6 @@ comments: true
 share: true
 ---
 
-[ ] http://leankit.com/
-[ ] https://www.planbox.com/
-[ ] http://www.axosoft.com/#ontime-
+ * http://leankit.com/
+ * https://www.planbox.com/
+ * http://www.axosoft.com/#ontime-
