@@ -15,3 +15,6 @@ Here is another few links I've found interesting.
 
 [Rove.io](http://rove.io/) allows you to create vagrant configs quickly and easily. 
 
+[Test Kitchen](https://github.com/opscode/test-kitchen) allows you to test chef setups locally
+
+[Foodcritic](http://acrmp.github.io/foodcritic/) is another chef lint checker
