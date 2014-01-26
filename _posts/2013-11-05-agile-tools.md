@@ -1,10 +1,14 @@
 ---
 layout: post
-title: "Various Agile Tools"
+title: Various Agile Tools
 description: "Tools i've never used but should have a look at"
-tags: [tools, agile, investigate]
+tags: 
+  - tools
+  - agile
+  - investigate
 comments: true
 share: true
+published: true
 ---
 
  * http://leankit.com/
