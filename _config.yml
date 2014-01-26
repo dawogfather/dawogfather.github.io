@@ -37,8 +37,8 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Theme Setup
-    url: /theme-setup
+#  - title: Theme Setup
+#    url: /theme-setup
   - title: About Me
     url: http://www.theromanos.com.au
     external: true
