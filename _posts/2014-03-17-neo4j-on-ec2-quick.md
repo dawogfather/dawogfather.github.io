@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 description: neo4j on ec2 super quick
 tags: 
