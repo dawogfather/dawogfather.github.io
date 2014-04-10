@@ -19,7 +19,7 @@ published: true
 
 Trying my hand of late with python and ruby and other bits and pieces but found myself hitting a lot of clang compiler issues when trying to install ruby gems etc on my mac, specifically this sort of thing:
 
-{% highlight bash %}	
+{% highlight bash %}
 compiling generator.c
 linking shared-object json/ext/generator.bundle
 clang: error: unknown argument: '-multiply_definedsuppress' [-Wunused-command-line-argument-hard-error-in-future]
@@ -43,7 +43,7 @@ gem install pg
 
 or of course you may need to do this if your using sudo
 
-{% highlight bash %}	
+{% highlight bash %}
 sudo ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future gem install helios
 {% endhighlight %}
 
