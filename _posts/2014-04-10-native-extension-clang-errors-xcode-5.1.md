@@ -27,7 +27,7 @@ clang: note: this will be a hard error (cannot be downgraded to a warning) in th
 make: *** [generator.bundle] Error 1
 {% endhighlight %}	
 
-Luckily after some googling [manbolo.com](blog.manbolo.com) to the rescue, Xcode 5.1 it appears has changed something from a warning to an error as explained in more detail on the blog post [here](http://blog.manbolo.com/2014/03/26/xcode-5.1-breaks-python-native-extensions-and-ruby-gems). 
+Luckily after some googling [manbolo.com](http://blog.manbolo.com) to the rescue, Xcode 5.1 it appears has changed something from a warning to an error as explained in more detail on the blog post [here](http://blog.manbolo.com/2014/03/26/xcode-5.1-breaks-python-native-extensions-and-ruby-gems). 
 
 Anyway whack in an 
 
