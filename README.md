@@ -5,7 +5,7 @@ They say three times the charm, so here is another free responsive Jekyll theme 
 ## What HPSTR brings to the table:
 
 * Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
+* Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
 * Modern and minimal design.
 * Sweet animated menu.
 * Readable typography to make your words shine.
@@ -17,41 +17,43 @@ They say three times the charm, so here is another free responsive Jekyll theme 
 * Simple [custom 404 page](http://mmistakes.github.io/hpstr-jekyll-theme/404.html) to get you started.
 * Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/hpstr-jekyll-theme/code-highlighting-post/) to make your code examples look snazzy
 * [Grunt](http://gruntjs.com) build script for easy theme development
-
-[Theme Preview](http://mmistakes.github.io/hpstr-jekyll-theme)
+* [Available in Spanish](https://github.com/cruznick/hpstr-jekyll-theme/tree/es). Thanks [@cruznick](https://github.com/cruznick)!
 
 ![HPSTR Theme Preview screenshot](http://mmistakes.github.io/hpstr-jekyll-theme/images/hpstr-jekyll-theme-preview.jpg)
 
 ---
 
-General notes and suggestions for customizing **HPSTR RDX**.
+General notes and suggestions for customizing **HPSTR**.
 
 ## Basic Setup for a new Jekyll site
 
-1. [Install Jekyll](http://jekyllrb.com) and read through the documentation if you haven't already.
-2. Fork the [HPSTR Jekyll THeme repo](https://github.com/mmistakes/hpstr-jekyll-theme/fork)
-3. Clone the repo you just forked to your computer.
+1. [Install Bundler](http://bundler.io) `gem install bundler` and then install [Jekyll](http://jekyllrb.com) and all dependencies `bundle install`.
+2. Fork the [HPSTR Jekyll Theme repo](https://github.com/mmistakes/hpstr-jekyll-theme/fork).
+3. Clone the repo you just forked and rename it.
 4. Edit `_config.yml` to personalize your site.
-5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, tags, and other YAML data.
+5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, assigning categories and tags, and other YAML data.
 6. Read the documentation below for further customization pointers and documentation.
 
-[Download the Theme](https://github.com/mmistakes/hpstr-jekyll-theme)
+[Demo the Theme](http://mmistakes.github.io/hpstr-jekyll-theme)
 
-**Pro-tip:** Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo that I'm guessing you don't want on your site.
+**Pro-tip:** Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo site that I'm guessing you don't want on your site.
 
 ---
 
 ## Setup for an Existing Jekyll site
 
 1. Clone the following folders: `_includes`, `_layouts`, `assets`, and `images`.
-2. Clone the following files and personalize content as need: `about.md`, `archive.html`, `index.html`, `tags.html`, and `feed.xml`.
+2. Clone the following files and personalize content as need: `about.md`, `posts.html`, `index.html`, `tags.html`, and `feed.xml`.
 3. Set the following variables in your `config.yml` file:
 
 ``` yaml
 title:            Site Title
 description:      Describe your website here.
 disqus_shortname: shortname
-url:              http://your-website.com
+# Your site's domain goes here. When working locally use localhost server leave blank
+# PS. If you set this wrong stylesheets and scripts won't load and most links will break.
+# PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
+url:              http://localhost:4000
 
 # Owner/author information
 owner:
@@ -100,7 +102,7 @@ paginate: 5
 
 ## More Theme Setup Goodness
 
-To learn more about how to customize the theme, how feature images work, use the Grunt build script, and some other junk, [read up here](http://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/).
+To learn more about how to customize the theme, include feature images in posts, use the Grunt build script, and some other junk, [read up here](http://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/).
 
 ---
 
@@ -112,4 +114,4 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [GNU General Public License](https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/LICENSE) version 2 or later. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer. 
+This theme is free and open source software, distributed under the [GNU General Public License](https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/LICENSE) version 2 or later. So feel free to to modify this theme to suit your needs. 

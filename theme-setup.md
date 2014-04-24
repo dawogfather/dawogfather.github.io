@@ -15,31 +15,34 @@ General notes and suggestions for customizing **HPSTR**.
 
 ## Basic Setup for a new Jekyll site
 
-1. [Install Jekyll](http://jekyllrb.com) and read through the documentation if you haven't already.
-2. Fork the [HPSTR Jekyll Theme repo](https://github.com/mmistakes/hpstr-jekyll-theme/fork)
-3. Clone the repo you just forked to your computer.
+1. [Install Bundler](http://bundler.io) `gem install bundler` and then install [Jekyll](http://jekyllrb.com) and all dependencies `bundle install`.
+2. Fork the [HPSTR Jekyll Theme repo](https://github.com/mmistakes/hpstr-jekyll-theme/fork).
+3. Clone the repo you just forked and rename it.
 4. Edit `_config.yml` to personalize your site.
-5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, tags, and other YAML data.
+5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, assigning categories and tags, and other YAML data.
 6. Read the documentation below for further customization pointers and documentation.
 
-<div markdown="0"><a href="https://github.com/mmistakes/hpstr-jekyll-theme" class="btn btn-info">Download the Theme</a></div>
+<div markdown="0"><a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" class="btn">Download the Theme</a></div>
 
-**Pro-tip:** Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo that I'm guessing you don't want on your site.
-{:.notice}
+**Pro-tip:** Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo site that I'm guessing you don't want on your site.
+{: .notice}
 
 ---
 
 ## Setup for an Existing Jekyll site
 
 1. Clone the following folders: `_includes`, `_layouts`, `assets`, and `images`.
-2. Clone the following files and personalize content as need: `about.md`, `archive.html`, `index.html`, `tags.html`, and `feed.xml`.
+2. Clone the following files and personalize content as need: `about.md`, `posts.html`, `index.html`, `tags.html`, and `feed.xml`.
 3. Set the following variables in your `config.yml` file:
 
 {% highlight yaml %}
 title:            Site Title
 description:      Describe your website here.
 disqus_shortname: shortname
-url:              http://your-website.com
+# Your site's domain goes here. When working locally use localhost server leave blank
+# PS. If you set this wrong stylesheets and scripts won't load and most links will break.
+# PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
+url:              http://localhost:4000
 
 # Owner/author information
 owner:
@@ -112,8 +115,8 @@ hpstr-jekyll-theme/
 ├── images  # images for posts and pages
 ├── _config.yml  # Jekyll options
 ├── about.md  # about page
-├── archive.html  # all posts
 ├── index.html  # home page
+├── posts.html  # all posts
 └── tags.html  # all posts grouped by tag
 {% endhighlight %}
 
@@ -123,7 +126,7 @@ hpstr-jekyll-theme/
 
 ### _config.yml
 
-Most of the variables found here are used in the .html files found in `_includes` if you need to add or remove anything. A good place to start would be to add the `title`, `description`, and `url` for your site. Links are absolute and prefixed with `{{ "{{ site.url " }}}}` in the various `_includes` and `_layouts`, so remember to comment out `url`[^1] when working locally to avoid broken links.
+Most of the variables found here are used in the .html files found in `_includes` if you need to add or remove anything. A good place to start would be to add the `title`, `description`, and `url` for your site. Links are absolute and prefixed with `{{ "{{ site.url " }}}}` in the various `_includes` and `_layouts`, so remember to properly set `url`[^1] to `http://localhost:4000` when developing locally.
 
 #### Disqus Comments
 
@@ -174,7 +177,7 @@ image:
   background: filename.png
 {% endhighlight %}
 
-This little bit of YAML makes the assumption that your background image asset is in the `/images` folder. If you place it somewhere else or are hotlinking from the web, just include the full http(s):// URL. Either way you should have a background image that is tiled.
+This little bit of YAML makes the assumption that your background image asset is in the `/images` folder. If you place it somewhere else or are hot linking from the web, just include the full http(s):// URL. Either way you should have a background image that is tiled.
 
 If you want to set a background image for the entire site just add `background: filename.png` to your `_config.yml` and BOOM --- background images on every page!
 
@@ -188,7 +191,19 @@ For the most part you can leave these as is since the author/owner details are p
 
 ### Adding Posts and Pages
 
-There are two main content layouts: `post.html` (for posts) and `page.html` (for pages). Both have support for large **feature images** that span the full-width of the screen, and both are meant for text heavy blog posts (or articles). 
+There are two main content layouts: `post.html` (for posts) and `page.html` (for pages). Both have support for large **feature images** that span the full-width of the screen, and both are meant for text heavy blog posts (or articles).
+
+There are two rake tasks that can be used to create a new post or page with all YAML Front Matter. Using either `rake new_post` or `rake new_page` will prompt you for a title and tags to classify them. Example below:
+
+{% highlight bash %}
+rake new_post
+
+Enter a title for your post: My Awesome Post
+Enter tags to classify your post (comma separated): web development, code
+Creating new post: _posts/2014-02-10-my-awesome-post.md
+{% endhighlight %}
+
+There are a few configuration variables that can be changed in `Rakefile.rb`. By default posts and pages will be created in MarkDown using the `.md` extension.
 
 #### Feature Images
 
@@ -261,10 +276,10 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [GNU General Public License]({{ site.url }}/LICENSE) version 2 or later. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer. 
+This theme is free and open source software, distributed under the [GNU General Public License]({{ site.url }}/LICENSE) version 2 or later. So feel free to to modify this theme to suit your needs.
 
 ---
 
-[^1]: Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for canonical urls in `head.html`. Don't include a trailing `/` in your base url ie: http://mademistakes.com. When developing locally remove or comment out this line so local CSS, JS, and image assets are used.
+[^1]: Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for canonical urls in `head.html`. Don't include a trailing `/` in your base url ie: http://mademistakes.com. When developing locally I suggest using http://localhost:4000 or whatever localhost you're using to properly load all theme stylesheets, scripts, and image assets. If you leave this variable blank all links will resolve correctly except those pointing to home.
 
 [^2]: If you're using GitHub Pages to host your site be aware that plugins are disabled. So you'll need to build your site locally and then manually deploy if you want to use this sweet plugin.
