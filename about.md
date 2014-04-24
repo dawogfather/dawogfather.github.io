@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /about/
-title: About the Theme
-tags: [Jekyll, theme, modern, minimal, responsive]
+title: About Me
+tags: [about, me, tom, romano, software, engineer, brisbane]
 image:
   feature: abstract-5.jpg
   credit: dargadgetz
@@ -10,9 +10,12 @@ image:
 share: true
 ---
 
-They say three times the charm, so here is another free responsive Jekyll theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory...
+Software engineer living in Australia. Making all the things. 
+This is my blog, mostly for my use as my brain gets full, but you can use it too if you want. 
+Queue the Law & Order Doon Dun!
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/7496742&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>
 
-## What HPSTR brings to the table:
+<!-- ## What HPSTR brings to the table:
 
 * Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
 * Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
@@ -30,4 +33,4 @@ They say three times the charm, so here is another free responsive Jekyll theme 
 
 <div markdown="0"><a href="{{ site.url }}/theme-setup" class="btn btn-info">Install the Theme</a></div>
 
-[^1]: Example: *domain.com/category-name/post-title*
+[^1]: Example: *domain.com/category-name/post-title* -->
