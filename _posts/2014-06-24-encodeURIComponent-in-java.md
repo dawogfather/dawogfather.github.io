@@ -45,7 +45,7 @@ And to get the URL in an encoded format:
 If you want to do something like encode the functionality found in ```encodeURIComponent()```
 
 Here's a bit of a dodgy work around. 
-````
+{% highlight java %}
     private String getEncodedFileName(String filename) {
         try {
             def filelink = new URI("file","//", filename)
@@ -54,4 +54,4 @@ Here's a bit of a dodgy work around.
             return  filename!=null? filename:"";
         }
     } 
-```
+{% endhighlight %}
