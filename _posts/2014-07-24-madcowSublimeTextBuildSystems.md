@@ -1,5 +1,17 @@
 ---
-published: false
+published: true
+layout: post
+description: Madcow Test Automation and Sublime Text Build Systems
+tags: 
+  - sublimetext
+  - sublime
+  - madcow
+  - selenium
+  - automation
+  - testing
+  - build
+comments: true
+share: true
 ---
 
 ## Madcow and Sublime Text Build Systems
