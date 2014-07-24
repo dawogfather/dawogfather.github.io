@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+title: Madcow and Sublime Text Build Systems
 description: Madcow Test Automation and Sublime Text Build Systems
 tags: 
   - sublimetext
@@ -13,8 +14,6 @@ tags:
 comments: true
 share: true
 ---
-
-## Madcow and Sublime Text Build Systems
 
 ## Sublime Text Editor
 By far the best text editor I have ever used is sublime text. 
