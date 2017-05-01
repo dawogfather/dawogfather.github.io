@@ -22,19 +22,21 @@ Probably happened somewhere around the time my second child arrived.
 
 So... Now my second child is almost two and I have another on the way before the years end I thought I may as well give this another go. 
 
-I can't remember much of anything as it is now, so possibly writing things down as they happen is a good idea for when that third child does arrive. 
+I can't remember much of anything as it is right now, so possibly writing things down as they happen is a good idea for when that third child does arrive.  
 
-Hopefully I keep the passwords in the password safe though and not on the blog. 
+Hopefully I remember to keep the passwords in the password safe though and not on the blog. 
 
-So what have I been up to besides procreation... Lots of things! 
+Not that this blog is about my children...
 
-* setup atebyteapps.com 
-* created a site stanthorpevilla.com.au for my brother's rental property
-* worked on Madcow 2.0 test automation system
+So what have I been up to besides procrastination and procreation... Lots of things! 
+
+* setup my company site (atebyteapps<atebyteapps.com>)
+* created a site (Stanthorpe Villa<stanthorpevilla.com.au>) for my brother's rental property
+* worked on (Madcow 2.0<https://madcow.4impact.net.au>) test automation system more 
 * worked on various insurance domain Guidewire software projects
 * played some amateur football and won and lost an elimination final 
-* saw that whole nodeJS revolution happen and built a calendar application for my football team as a result (see https://foxpulsecalendar.atebyteapps.com)
-* built a new house and fixed up an old rental
-* and seen Jose Mourinho come back to Chelsea to win the premiership only to sacked the year after
+* saw that whole nodeJS revolution happen and built a calendar application for my football team using it as a result (see <http://foxpulsecalendar.atebyteapps.com>)
+* demolished a house, designed, built and furnished a new house and fixed up an old rental
+* and saw Jose Mourinho come back to Chelsea to win the premiership only to sacked the year after
 
 
