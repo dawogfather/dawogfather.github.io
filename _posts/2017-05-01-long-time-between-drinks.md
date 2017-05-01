@@ -30,13 +30,13 @@ Not that this blog is about my children...
 
 So what have I been up to besides procrastination and procreation... Lots of things! 
 
-* setup my company site (atebyteapps<atebyteapps.com>)
-* created a site (Stanthorpe Villa<stanthorpevilla.com.au>) for my brother's rental property
-* worked on (Madcow 2.0<https://madcow.4impact.net.au>) test automation system more 
+* setup my company site [atebyteapps](https://atebyteapps.com)
+* created a site [Stanthorpe Villa](https://stanthorpevilla.com.au) for my brother's rental property
+* worked on [Madcow 2.0](https://madcow.4impact.net.au) test automation system more 
 * worked on various insurance domain Guidewire software projects
 * played some amateur football and won and lost an elimination final 
-* saw that whole nodeJS revolution happen and built a calendar application for my football team using it as a result (see <http://foxpulsecalendar.atebyteapps.com>)
+* saw that whole nodeJS revolution happen and [built a calendar application](http://foxpulsecalendar.atebyteapps.com) for the foxpulse (now sportstg) sporting website using it as a result 
 * demolished a house, designed, built and furnished a new house and fixed up an old rental
-* and saw Jose Mourinho come back to Chelsea to win the premiership only to sacked the year after
+* and saw Jose Mourinho come back to Chelsea to [win the premiership](https://www.theguardian.com/football/blog/2015/may/04/chelsea-premier-league-title-terry-hazard-mourinho) only to [sacked the year after](http://www.skysports.com/football/news/11668/10102452/jose-mourinho-sacked-by-chelsea-for-a-second-time-according-to-reports)
 
 
